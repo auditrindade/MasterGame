@@ -1,0 +1,23 @@
+.container-grid {
+    margin: 0 auto;
+
+    width: 80%;
+    max-width: 1920px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+
+    height:570px;
+    width: 100vw;
+    background-color:#849483;
+    border-radius: 0px 0px 150px 150px;
+
+}
