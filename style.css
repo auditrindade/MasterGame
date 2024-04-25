@@ -1,12 +1,11 @@
 .container-grid {
     margin: 0 auto;
-
     width: 80%;
     max-width: 1920px;
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,9 +14,51 @@
 
 header {
 
-    height:570px;
+    height: 370px;
     width: 100vw;
-    background-color:#849483;
+    background-color: #849483;
     border-radius: 0px 0px 150px 150px;
+
+}
+
+.banner {
+    background-image: url(img/banner.png);
+    height: 150vh;
+    background-position: 50% 20%;
+    background-size: cover;
+
+
+}
+
+/*tamanho do logotipo*/
+.banner .container-grid img {
+    width: 80%;
+    height: 80%;
+
+}
+
+.menu-cima {   
+    
+    text-align: end;
+
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.menu {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu a {
+    font-size: 24px;
+    font-family: 'michroma';
+
+    color: white;
+
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
 
 }
