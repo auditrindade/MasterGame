@@ -1,3 +1,7 @@
+
+
+
+
 .container-grid {
     margin: 0 auto;
     width: 80%;
@@ -37,28 +41,52 @@ header {
 
 }
 
-.menu-cima {   
+.menu-cima  {   
     
     text-align: end;
 
     display: flex;
-    margin-bottom: 30px;
+    margin-top: 0px;
 }
 
 .menu {
-    width: 700px;
+    
     display: flex;
-    justify-content: space-between;
+    gap: 36px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     
 }
 
 .menu a {
+
+  
     font-size: 24px;
     font-family: 'michroma';
 
     color: white;
 
     text-decoration: underline transparent;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 2px;    
 
+}
+
+#sobre {
+
+    
+
+    display: flex;
+    justify-content: center;
+    
+    
+    height: 370px;
+    width: 100vw;
+    background-color: #849483;
+    border-radius: 0px 0px 150px 150px;
+
+}
+
+#sobre img {
+    
+    width: 30%;
 }
