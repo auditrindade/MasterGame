@@ -4,8 +4,8 @@
 
 .container-grid {
     margin: 0 auto;
-    width: 80%;
-    max-width: 1920px;
+    width: 80vw;
+    max-width: 1520px;
 }
 
 
@@ -71,14 +71,8 @@ header {
 
 }
 
-#sobre {
-
-    
-
-    display: flex;
-    justify-content: center;
-    
-    
+#sobre {   
+        
     height: 370px;
     width: 100vw;
     background-color: #849483;
@@ -86,7 +80,54 @@ header {
 
 }
 
+#sobre div{
+    flex-direction: column;
+}
+
 #sobre img {
     
-    width: 30%;
+    width: 40%;
+    height: 70%;
+}
+.alinhamento-sobre{
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+
+    width: 360px;
+}
+
+#sobre .container-grid{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    
+}
+
+#sobre h2 {
+    font-size: 24px;
+    font-family: 'montserrat';
+    color: white;
+    font-weight: 500;
+    
+}
+
+#sobre p {
+    font-size: 18px;
+    font-family: 'montserrat';
+    color: white;
+
+}
+
+#portfolio {
+
+    height: 995px;
+    width: 1920px;
+    background-color: rgba(132, 148, 131, 0.25);
+    background-position: ;
+
 }
