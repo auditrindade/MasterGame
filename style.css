@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: rgba(132, 148, 131, 0.251);
+}
 
 
 .container-grid {
@@ -18,7 +20,7 @@
 
 header {
 
-    height: 370px;
+    height: 470px;
     width: 100vw;
     background-color: #849483;
     border-radius: 0px 0px 150px 150px;
@@ -27,7 +29,7 @@ header {
 
 .banner {
     background-image: url(img/banner.png);
-    height: 150vh;
+    height: 130vh;
     background-position: 50% 20%;
     background-size: cover;
 
@@ -73,7 +75,7 @@ header {
 
 #sobre {   
         
-    height: 370px;
+    height: 470px;
     width: 100vw;
     background-color: #849483;
     border-radius: 0px 0px 150px 150px;
@@ -126,8 +128,72 @@ header {
 #portfolio {
 
     height: 995px;
-    width: 1920px;
-    background-color: rgba(132, 148, 131, 0.25);
-    background-position: ;
+    width: 100vw;
+   
+}
+
+#portfolio h2 {
+    font-size: 64px;
+    font-family: 'michroma';
+    margin-top: 50px;
+}
+
+#portfolio .container-portfolio {
+    width: 35%;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#cases h2{
+    font-size: 64px;
+    font-family: 'michroma';
+    margin-top: -200px;
+}
+
+.carrossel {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 100px;
+  }
+
+  .botao {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .video {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  #beneficios {
+    width: 100vw;
+    height: 670px;
+    background-color: #1756A6;
+    border-radius: 150px 150px 0px 0px;
+  }
+
+  #beneficios h2 {
+    font-size: 64px;
+    font-family: 'michroma';
+    margin-top: 350px;
+  }
+
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 100px;
+
+    
 
 }
+  
+
