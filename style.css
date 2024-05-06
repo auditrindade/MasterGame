@@ -183,17 +183,175 @@ header {
   #beneficios h2 {
     font-size: 64px;
     font-family: 'michroma';
-    margin-top: 350px;
+    margin-top: 250px;
   }
 
 .container-cards {
     display: flex;
     justify-content: space-between;
+    
+    margin-top: 100px;    
+}
 
-    margin-top: 100px;
+.card p {
+    font-size: 18px;
+    font-family: 'michroma';
+    color: white;
+   
+}
 
+  
+    #contato {
+    background-color: #F29F05;
+    border-radius: 150px 150px 0px 0px;
+    margin-top: -135px;
+
+    }
+
+
+    .container-form {
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+    }
+   
+#contato {
+    display: flex;
+    justify-content: space-between;
     
 
+    text-align: start;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    
 }
   
+
+#contato h2 {
+    font-size: 64px;
+    font-family: 'michroma';
+
+    margin-top: 50px;   
+   margin-bottom: 70px;
+}
+
+#contato img {
+    height: 380px;
+}
+
+#contato form {
+    
+    height: 380px;  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 80px;
+    background-color: #1755a6;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 17px;
+}
+
+.campo {
+    width: 60%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.campo-descricao {
+    width: 60%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.campo input {
+    height: 40px;
+
+    color: white;
+    background-color: #ffffff;
+
+    border: none;
+    border-radius: 4px;
+
+    text-indent: 10px;
+
+    outline: none;
+}
+
+.campo-descricao textarea {
+    color: white;
+    background-color: #ffffff;
+
+    border: none;
+    border-radius: 4px;
+
+    outline: none;
+
+    padding: 10px;
+
+    resize: none;
+}
+
+.campo label,
+.campo-descricao label {
+    margin-bottom: 15px;
+}
+
+.campo input,
+.campo-descricao textarea {
+    font-family: "Montserrat";
+    font-size: 17px;
+}
+
+.campo input::placeholder,
+.campo-descricao textarea::placeholder {
+    color: #a0a0a0;
+}
+
+.campo input:focus,
+.campo-descricao textarea:focus {
+    outline: 2px solid #5D89C2;
+}
+
+#contato form button {
+    height: 40px;
+    width: 60%;
+
+    background-color: #5D89C2;
+    color: white;
+
+    border: none;
+    border-radius: 4px;
+
+    font-size: 17px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    /* Bold */
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: background-color 500ms;
+}
+
+#contato form button:hover {
+    background-color: #5D89C2;
+}
 
