@@ -43,7 +43,7 @@ header {
 
 /*tamanho do logotipo*/
 .banner .container-grid img {
-    width: 80%;
+    margin-top: 80px;
     height: 80%;
 
 }
@@ -284,7 +284,7 @@ height: 320px;
 }
 
 #contato form {
-    width: 700px;
+    width: 600px;
     padding: 2% 0;
 
     display: flex;
@@ -325,7 +325,7 @@ height: 320px;
 .campo input {
     height: 40px;
 
-    color: white;
+    color: black;
     background-color: #ffffff;
 
     border: none;
@@ -337,7 +337,7 @@ height: 320px;
 }
 
 .campo-descricao textarea {
-    color: white;
+    color: black;
     background-color: #ffffff;
 
     border: none;

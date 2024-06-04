@@ -49,3 +49,45 @@ onresize = () => {
     // Mostrar o icone do X
     iconeX.style.display = "inline"
 }
+function solicitarOrcamento (event) {
+    //recebendo input do usuario (guardar em algum lugar as informacoes do usuario)
+    //receber os dados digitados no campo nome.
+    let valorNome = document.getElementById("campo-nome").value//(valor)
+    //receber os dados digitados no campo email.
+    let valorEmail = document.getElementById("campo-email").value
+    //receber os dados digitados no campo descreva
+    let valorTexto = document.getElementById("campo-texto").value
+
+    //criar objeto.
+    let dadosForm = {
+        nome: valorNome,
+        email: valorEmail,
+        texto: valorTexto
+    }
+    console.log (dadosForm);
+
+    //requisicao API(garcom)
+    //criar metodo post (criar)
+    fetch("http://localhost:3000/solicitacoes",{
+        method:"POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify (dadosForm)
+    })
+    //se for sucesso
+    .then(resposta => {
+        console.log (resposta)
+
+        alert ("Gravado com sucesso")
+    })
+
+    //caso erro
+    .catch(erro => {
+        console.log (erro)
+
+        alert ("Dados incorretos")
+    })
+    event.preventDefault()
+}
+
