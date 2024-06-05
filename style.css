@@ -133,7 +133,7 @@ header {
 }
 
 #sobre p {
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'montserrat';
     color: white;
 
@@ -212,16 +212,16 @@ height: 320px;
   }
 
   #beneficios h2 {
-    font-size: 64px;
+    font-size: 54px;
     font-family: 'michroma';
-    margin-top: 250px;
+    margin-top: 350px;
   }
 
 .container-cards {
     display: flex;
     justify-content: space-between;
     
-    margin-top: 100px;    
+    margin-top: 80px;    
 }
 
 .card p {
@@ -235,8 +235,8 @@ height: 320px;
     #contato {
     width: 100%;
     background-color: #F29F05;
-    border-radius: 150px 150px 0px 0px;
-    margin-top: -135px;
+    /* border-radius: 150px 150px 0px 0px; */
+    margin-top: -80px;
 
     }
 
@@ -449,6 +449,8 @@ height: 320px;
 
     
 
+    
+
     header button {
         width: 50px;
 
@@ -500,11 +502,40 @@ height: 320px;
 }
 
 @media screen and (max-width: 940px) {
-    .container-form img {
+    #contato .container-grid img  {
         width: 100%;
-        
+        margin-top: 0px;          
+    }
 
-        display: flex;
-        justify-content: space-between;
+    #contato .container-grid .solicitarOrcamento {
+        width: 13%;
     }
 }
+
+@media screen and (max-width: 670px){
+    .beneficios .card {
+        width: 10px;
+        margin-top: 10px;
+        
+    }
+}
+
+@media screen and (max-width: 600px){
+    #sobre .container-grid .alinhamento-sobre{
+        
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #beneficios .container-grid  {
+        width: -10%;
+    
+    }
+    .h2 {
+        margin-top: -250px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
