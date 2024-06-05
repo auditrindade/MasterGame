@@ -437,7 +437,12 @@ height: 320px;
     }
 
     .container-carrossel img {
-        width: 300px;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .video img {
+        width: 50%;
         display: flex;
         justify-content: space-between;
     }
@@ -491,11 +496,15 @@ height: 320px;
         width: 200px;
     }
 
-    #contato form {
-        width: 75%;
-    }
+    
 }
 
-@media screen and (max-width: 1080px) {
-    
+@media screen and (max-width: 940px) {
+    .container-form img {
+        width: 100%;
+        
+
+        display: flex;
+        justify-content: space-between;
+    }
 }
